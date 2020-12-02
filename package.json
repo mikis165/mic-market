@@ -8,7 +8,6 @@
     "build": "cd frontend && npm install && npm run build",
     "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
   },
-  
   "author": "",
   "license": "ISC",
   "dependencies": {
