@@ -7,7 +7,7 @@
   "scripts": {
     "build": "cd frontend && npm install && npm run build",
     "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js",
-    "heroku-postbuild": "cd frontend && npm && npm run build"
+    "heroku-postbuild": "npm run build"
   },
   "author": "",
   "license": "ISC",
@@ -26,7 +26,7 @@
     "nodemon": "^2.0.6"
   },
   "engines": {
-    "node": "15.2.1"
-    
+    "node": "15.2.1",
+    "npm": "6.9.0"
   }
 }
