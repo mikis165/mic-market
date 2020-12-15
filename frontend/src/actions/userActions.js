@@ -1,4 +1,4 @@
-import Axios from 'axios';
+import Axios from  '../config.js';
 import {
   USER_DETAILS_FAIL,
   USER_DETAILS_REQUEST,

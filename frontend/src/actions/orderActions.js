@@ -1,4 +1,4 @@
-import Axios from 'axios';
+import Axios from  '../config.js';
 import { CART_EMPTY } from '../constants/cartConstants';
 import {
   ORDER_CREATE_FAIL,

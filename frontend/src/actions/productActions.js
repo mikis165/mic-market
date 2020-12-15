@@ -1,4 +1,4 @@
-import Axios from 'axios';
+import Axios from  '../config.js';
 import {
   PRODUCT_CREATE_FAIL,
   PRODUCT_CREATE_REQUEST,

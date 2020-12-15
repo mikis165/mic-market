@@ -1,4 +1,4 @@
-import Axios from 'axios';
+import Axios from  '../config.js';
 import {
   CART_ADD_ITEM,
   CART_REMOVE_ITEM,
