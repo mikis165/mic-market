@@ -28,7 +28,7 @@ app.get('/api/config/paypal', (req, res) => {
 app.get('/api/config/google', (req, res) => {
   res.send(process.env.GOOGLE_API_KEY || '');
 });
-
+const __dirname = path.resolve()
 app.use(express.static(__dirname + "/staticFiles"));
 app.use(express.static(path.join(__dirname, '../frontend/build')));
 
