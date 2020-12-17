@@ -29,8 +29,7 @@ app.get('/api/config/google', (req, res) => {
   res.send(process.env.GOOGLE_API_KEY || '');
 });
 
-
-app.use(express.static(__dirname));
+app.use(express.static(__dirname + "/staticFiles"));
 app.use(express.static(path.join(__dirname, '../frontend/build')));
 
 app.get('/*', function (req, res) {
